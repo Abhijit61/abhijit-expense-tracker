@@ -1,0 +1,12 @@
+.expense{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border: 1px solid yellowgreen;
+  border-radius: 10px;
+  color: black;
+}
+
+

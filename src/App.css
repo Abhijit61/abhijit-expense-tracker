@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +36,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.forms{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightcyan;
+}
+
+.walletform{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: darkgray;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.expenseform{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: darkgray;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.incomebutton{
+  color: black;
+  background-color: lightgreen;
+}
+
+.expensebutton{
+  color: white;
+  background-color: red;
+}
+
+.pie{
+  padding-top: -20px;
+}
+
+.expensessection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expenses-list{
+  width: 50%;
 }
